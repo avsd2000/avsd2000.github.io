@@ -9,23 +9,15 @@ body {
     background: linear-gradient(45deg, #cc8d06, rgb(245, 47, 80));
 }
 
-
 /* Header Styles */
 header {
     background: linear-gradient(301deg, #7676c7, #000);
     color: #fff;
     text-align: center;
     padding: 20px;
-
-    .sticky {
-      position: sticky;
-      top: 0;
-      width: 100%
-    }
-
-    .sticky + .content {
-      padding-top: 102px;
-    }
+    position: sticky;
+    top: 0;
+    width: 100%
 }
 
 .headeraH1 {
